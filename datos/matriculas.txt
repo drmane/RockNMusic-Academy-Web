@@ -1,0 +1,259 @@
+
+
+                    DNI: 11111111H
+                    Nombre: asdcvasd
+                    Direccion: asdfasd
+                    Código Postal: 11111
+                    Email: drmane13@gmail.com
+                    Teléfono: 111111111
+
+                    Instrumento: 1
+                    Nivel: 1
+
+                    Pago: Tarjeta
+                    
+                    Observaciones:
+                    asdas
+                    
+                    Promociones: on
+                    
+
+                    DNI: 11111111H
+                    Nombre: asdcvasd
+                    Direccion: asdfasd
+                    Código Postal: 11111
+                    Email: drmane13@gmail.com
+                    Teléfono: 111111111
+
+                    Instrumento: 1
+                    Nivel: 1
+
+                    Pago: Tarjeta
+                    
+                    Observaciones:
+                    asdas
+                    
+                    Promociones: on
+                    
+
+                    DNI: 11111111H
+                    Nombre: asfasdfasdfasdf
+                    Direccion: asdfasdf
+                    Código Postal: 11111
+                    Email: drmane13@gmail.com
+                    Teléfono: 111111111
+
+                    Instrumento: Guitarra Eléctrica
+                    Nivel: Principiante
+
+                    Pago: Tarjeta
+                    Nº Tarjeta: 1111-1111-1111-1111
+                    CVV: 111
+                    Caducidad: Mes: 1 Año: 1
+                    
+                    Observaciones:
+                    zdcvz
+                    
+                    Promociones: on
+                    
+
+                    DNI: 11111111H
+                    Nombre: asfasdfasdfasdf
+                    Direccion: asdfasdf
+                    Código Postal: 11111
+                    Email: drmane13@gmail.com
+                    Teléfono: 111111111
+
+                    Instrumento: Guitarra Eléctrica
+                    Nivel: Principiante
+
+                    Pago: Tarjeta
+                    Nº Tarjeta: 1111-1111-1111-1111
+                    CVV: 111
+                    Caducidad: Mes: 1 Año: 1
+                    
+                    Observaciones:
+                    zdcvz
+                    
+                    Promociones: on
+                    
+
+                    DNI: 11111111H
+                    Nombre: asfasdfasdfasdf
+                    Direccion: asdfasdf
+                    Código Postal: 11111
+                    Email: drmane13@gmail.com
+                    Teléfono: 111111111
+
+                    Instrumento: Guitarra Eléctrica
+                    Nivel: Principiante
+
+                    Pago: En Metálico
+                    
+                    Observaciones:
+                    zdcvz
+                    
+                    Promociones: on
+                    
+
+                    DNI: 11111111H
+                    Nombre: asda
+                    Direccion: asdf
+                    Código Postal: 11111
+                    Email: drmane13@gmail.com
+                    Teléfono: 111111111
+
+                    Instrumento: Guitarra Eléctrica
+                    Nivel: Principiante
+
+                    Pago: En Metálico
+                    
+                    Observaciones:
+                    asdf
+                    
+                    Promociones: on
+                    
+
+                    DNI: 
+                    Nombre: 
+                    Direccion: 
+                    Código Postal: 
+                    Email: 
+                    Teléfono: 
+
+                    Instrumento: Guitarra Eléctrica
+                    Nivel: Principiante
+
+                    Pago: 
+                    Nº Tarjeta: 
+                    CVV: 
+                    Caducidad: Mes: 1 Año: 1
+                    
+                    Observaciones:
+                    
+                    
+                    Promociones: 
+                    
+
+                    DNI: 11111111H
+                    Nombre: sdfasd
+                    Direccion: asdfasdf
+                    Código Postal: 11111
+                    Email: drmane13@gmail.com
+                    Teléfono: 111111111
+
+                    Instrumento: Guitarra Eléctrica
+                    Nivel: Principiante
+
+                    Pago: En Metálico
+                    
+                    Observaciones:
+                    asdf
+                    
+                    Promociones: on
+                    
+
+                    DNI: 11111111H
+                    Nombre: sdfasd
+                    Direccion: asdfasdf
+                    Código Postal: 11111
+                    Email: drmane13@gmail.com
+                    Teléfono: 111111111
+
+                    Instrumento: Guitarra Eléctrica
+                    Nivel: Principiante
+
+                    Pago: Tarjeta
+                    Nº Tarjeta: 
+                    CVV: 
+                    Caducidad: Mes: 1 Año: 1
+                    
+                    Observaciones:
+                    asdf
+                    
+                    Promociones: on
+                    
+
+                    DNI: 11111111H
+                    Nombre: asdasd
+                    Direccion: asdas
+                    Código Postal: 11111
+                    Email: drmane13@gmail.com
+                    Teléfono: 111111111
+
+                    Instrumento: Guitarra Eléctrica
+                    Nivel: Principiante
+
+                    Pago: Tarjeta
+                    Nº Tarjeta: 
+                    CVV: 
+                    Caducidad: Mes: 1 Año: 1
+                    
+                    Observaciones:
+                    asdfasd
+                    
+                    Promociones: on
+                    
+
+                    DNI: 11111111H
+                    Nombre: asdasd
+                    Direccion: asdas
+                    Código Postal: 11111
+                    Email: drmane13@gmail.com
+                    Teléfono: 111111111
+
+                    Instrumento: Guitarra Eléctrica
+                    Nivel: Principiante
+
+                    Pago: Tarjeta
+                    Nº Tarjeta: 
+                    CVV: 
+                    Caducidad: Mes: 1 Año: 1
+                    
+                    Observaciones:
+                    asdfasd
+                    
+                    Promociones: on
+                    
+
+                    DNI: 11111111H
+                    Nombre: sas
+                    Direccion: asdfasdf
+                    Código Postal: 11111
+                    Email: drmane13@gmail.com
+                    Teléfono: 111111111
+
+                    Instrumento: Guitarra Eléctrica
+                    Nivel: Principiante
+
+                    Pago: Tarjeta
+                    Nº Tarjeta: 1111-1111-1111-1111
+                    CVV: 111
+                    Caducidad: Mes: 1 Año: 1
+                    
+                    Observaciones:
+                    zs
+                    
+                    Promociones: on
+                    
+
+                    DNI: 11111111H
+                    Nombre: Manuel Campos
+                    Direccion: c/ Falsa 123
+                    Código Postal: 11111
+                    Email: correo@gmail.com
+                    Teléfono: 111111111
+
+                    Instrumento: Guitarra Eléctrica
+                    Nivel: Principiante
+
+                    Pago: Tarjeta
+                    Nº Tarjeta: 1111-1111-1111-1111
+                    CVV: 111
+                    Caducidad: Mes: 1 Año: 1
+                    
+                    Observaciones:
+                    Quiero ser el mejor guitarrista!
+                    
+                    Promociones: on
+                    

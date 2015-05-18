@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+  <title>RockNMusic Academy</title>
+  <meta name="description" content="Una escuela de musica presencial" />
+  <meta name="keywords" content="guitarra eléctrica, guitarra clásica, guitarra acústica, bajo, teaclado, piano, flamenco, blues, metal, punk, pop, jazz y clásico" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+    
+      
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/image_slide.js"></script>
+    
+  <!--Google Maps -->
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+    
+  <script type="text/javascript" src="js/googleMapsScript.js"></script>
+    
+    <!-- Validation Script -->
+  <script type="text/javascript" src="js/validation.js"></script>	
+    
+</head>
+
+<body>
+  <div id="main">
+	
+	<header>
+	  
+	  <div id="header_section">	  
+	    
+		<div id="welcome">
+	      <h2>RockNMusic Academy</h2>
+	    </div><!--close welcome-->			  	
+	  
+	    <nav>
+          <ul id="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="horarios.html">Horarios</a></li>
+            <li><a href="matricula.html">Matrícula</a></li>
+            <li class="current"><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      
+	  </div>		
+	
+	</header>
+    
+	<div id="site_content">
+	
+	  <div id="content">
+	
+        <h2>Contacto</h2>
+        <p>Puedes contactar con nosotros de las siguientes formas:</p>
+          
+        <ol type="1">
+          <li>Acudiendo directamente a la <strong>Academia</strong> en la dirección: Calle Prof José García Santesmases 28040 Madrid</li>
+          <li>Llamando por <strong>Teléfono</strong> al número: +0034 666 66 66 66</li>
+          <li>Enviandonos un <strong>Email</strong> al correo electrónico: <a href="mailto:rocknmusicacademy@gmail.com">rocknmusicacademy@gmail.com</a></li>
+          <li>Rellenando los datos del <strong>Formulario</strong> y dando al botón <i>Enviar</i></li>
+        </ol>
+          
+          <table>
+            <tr>
+                <td>
+                    <form method="post" action="write_contact.php">
+                         <label for="nombre">Nombre y Apellidos</label>
+                         <input id="nombre-apellidos" name="nombre-apellidos" placeholder="ej: Daniel Garrido" required onblur="validateName()" type="text" size="25"><br>
+                         <label for="email">Email </label>
+                         <input id="email" name="email" placeholder="ej: nombre@correo.es" required onblur=" validateEmail()"  type="text" size="25"><br>
+                         <p>Mensaje</p>
+                         <textarea name= "mensaje" required rows="4" cols="55"></textarea><br>
+                         <p>Introduce la respuesta a esta simple opración matemática (para evitar spam)</p><br>
+                        <label for="number">Pregunta matemática: 9 + 3 = ? </label>
+                        <input id="number" name="number" placeholder="ej:23" required onblur=" validateNumber()" required type="text" size="5"><br>
+                        <input class="submit" type="submit" name="contact_submitted" value=" Enviar " />
+                    </form>
+                </td>
+                <td>
+
+                    <div id="googleMap" style="width:400px;height:280px;"></div> <br>
+                </td>
+            </tr>
+          </table>
+          			
+        
+
+	
+      
+	  </div><!--close content-->   
+	
+	</div><!--close site_content-->  	
+  
+    <footer>
+    <a href="index.html">Home</a> | <a href="horarios.html">Horarios</a> | <a href="matricula.html">Matrícula</a> | <a href="contacto.html">Contacto</a><br/><br>
+Copyright RockNMusic Academy
+    </footer> 
+  
+  </div><!--close main-->
+  
+</body>
+</html>

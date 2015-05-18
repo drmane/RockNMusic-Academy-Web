@@ -1,0 +1,198 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+  <title>RockNMusic Academy</title>
+  <meta name="description" content="Una escuela de musica presencial" />
+  <meta name="keywords" content="guitarra eléctrica, guitarra clásica, guitarra acústica, bajo, teaclado, piano, flamenco, blues, metal, punk, pop, jazz y clásico" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+    
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+    
+  <script type="text/javascript" src="js/jquery-scripts.js"></script>	
+    
+  <!-- Validation Script -->
+  <script type="text/javascript" src="js/validation.js"></script>	
+    
+</head>
+
+<body onload="matriculaLoad()">
+  <div id="main">
+	
+	<header>
+	  
+	  <div id="header_section">	  
+	    
+		<div id="welcome">
+	      <h2>RockNMusic Academy</h2>
+	    </div><!--close welcome-->			  	
+	  
+	    <nav>
+          <ul id="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="horarios.html">Horarios</a></li>
+            <li class="current"><a href="matricula.html">Mattrícula</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      
+	  </div>		
+	
+	</header>
+    
+	<div id="site_content">	
+	
+	  <div id="content">
+ 
+		<h2>Matrícula</h2>
+		<p>En el caso que se quiera matricularse, se deberá rellenar el siguiente formulario o acudir a la academia de forma presencial y realizar el proceso de matriculación allí. Los apartados indicados con * son obligatorios. En el caso que se desee inscribirse con otro instrumento, se deberá formalizar otra matrícula.</p>		
+          
+        <p>Los horarios se seleccionan en el centro de forma presencial tras formalizar la matrícula con ayuda del secretario del centro.</p>
+		  
+		<div class="content_item">
+            
+            <form id="form" method="post" onsubmit= "return finalValidation()" action="write_matricula.php">
+                
+                <div id= "personalData">
+                    
+                      <h3>Datos Personales *</h3>
+                     
+                     <fieldset>
+                    
+                        <label for="DNI">DNI *</label>
+                        <input id="DNI" name="DNI" placeholder="ej: 12345678A" required onblur="validateNIF()" size="25" maxlength="9" type="text" ><br>
+
+                        <label for="nombre-apellidos">Nombre y Apellidos *</label>
+                        <input id="nombre-apellidos" name="nombre-apellidos" placeholder="ej: Daniel Fernández" required onblur="validateName()" type="text" size="25"><br>
+
+                        <label for="direccion">Dirección *</label>
+                        <input id="direccion" name="direccion" placeholder="ej: c/ Conocida 123" required size="25" type="text" ><br>
+
+                        <label for="codigo-postal">Código Postal *</label>
+                        <input id="codigo-postal" name="codigo-postal" placeholder="ej: 12345" required onblur="validateZipCode()" maxlength="5" required type="text" size="25"><br>
+
+                        <label for="email">Email *</label>
+                        <input id="email" name="email" placeholder="ej: nombre@correo.es" required onblur=" validateEmail()"  type="text" size="25"><br>
+
+                        <label for="codigo-telefono">Teléfono *</label>
+                        <input id="telefono" name="telefono" placeholder="ej: 666666666" required onblur="validatePhone()"  type="text" maxlength="9" size="25"><br>
+                         
+                    </fieldset>
+                    
+                    <h3>Música *</h3>
+                    
+                    <fieldset>
+                    
+                        <label for="instrumento">Instrumento *</label>
+                        <select id="instrumento" name="instrumento">
+                                <option value="Guitarra Eléctrica">Guitarra Eléctrica</option>
+                                <option value="Guitarra Clásica">Guitarra Clásica</option>
+                                <option value="Guitarra Acústica">Guitarra Acústica</option>
+                                <option value="Bajo">Bajo</option>
+                                <option value="Teclado">Teclado</option>
+                                <option value="Piano">Piano</option>
+                        </select> <br>
+
+                        <label for="nivel">Nivel *</label>
+                        <select id="nivel" name="nivel">
+                                <option value="Principiante">Principiante</option>
+                                <option value="Avanzado">Avanzado</option>
+                                <option value="Experto">Experto</option>
+                        </select> 
+                        
+                    </fieldset>
+                        
+                    <h3>Forma de Pago *</h3>
+                        
+                    <fieldset>
+                        <p>Seleccionar una de las dos opciones: </p>
+                        <input type="radio" name="pago" id="metalicoB" value="En Metálico">Metálico *<br>
+                        <input type="radio" name="pago" id="tarjetaB" value="Tarjeta">Tarjeta *<br>
+                        <p id="textoMetálico">Al seleccionar <i>Metálico</i> dispondrá de 7 días desde el momento del registro para desplazarse a nuestra academia y realizar el pago de la matrícula. En caso de no pagar dentro de ese periodo, la matrícula quedará anulada.</p>
+                        <div id="datosTarjeta">
+                            <label for="titular-tarjeta">Titular Cuenta: *</label>
+                            <input id="titular-tarjeta" name="titular-tarjeta" placeholder=""  onblur="validateCardName()" size="25" type="text"><br>
+                            
+                            <label for="numero-tarjeta">Nº Tarjeta de Crédito *</label>
+                            <input id="numero-tarjeta" name="numero-tarjeta" placeholder="" onblur="validateCardNumber()" size="19" maxlength="19" type="text"><br>
+                            
+                            <label for="cvv">CVV: * </label>
+                            <input id="cvv" name="cvv" placeholder="" onblur="validateCVV()" size="3" maxlength="3"  type="text"><br>
+                            
+                            <p>Fecha Caducidad:</p>
+                            
+                            <label for="mes">Mes: * </label>
+                            <select id="mes" name="mes">
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                                <option value="5">05</option>
+                                <option value="6">06</option>
+                                <option value="7">07</option>
+                                <option value="8">08</option>
+                                <option value="9">09</option>
+                                <option value="10">10</option>
+                                <option value="1">11</option>
+                                <option value="1">12</option>
+                            </select><br>
+                            <label for="año">Año: * </label>
+                            <select id="año" name="año">
+                                <option value="1">2015</option>
+                                <option value="2">2016</option>
+                                <option value="3">2017</option>
+                                <option value="4">2018</option>
+                                <option value="5">2019</option>
+                                <option value="6">2020</option>
+                                <option value="7">2021</option>
+                                <option value="8">2022</option>
+                                <option value="9">2023</option>
+                                <option value="10">2024</option>
+                                <option value="1">2025</option>
+                                <option value="1">2026</option>
+                            </select> 
+                            
+                        </div>
+                        
+                    </fieldset>
+                    
+                    <h3>Observaciones</h3>
+                        
+                    <fieldset>
+                    
+                        <p>Introduce cualquier tipo de obsevacón que veas necesaria de acuerdo a tu matrícula.</p>
+
+                        <textarea name="observaciones" rows="4" cols="60"></textarea>
+                        
+                        </fieldset><br>
+
+                        <input type="checkbox" name="promociones" id="promociones"> Dese recibir promociones / ofertas de RockNMusic Academy en mi correo electrónico <br>
+                        
+
+                        
+                    <input class="submit" type="submit" value=" Enviar ">
+                    
+                </div
+                
+            </form>
+                
+		</div><!--close content_item-->	
+      
+	  </div><!--close content-->   
+	
+	</div><!--close site_content-->  	
+  
+    <footer>
+    <a href="index.html">Home</a> | <a href="horarios.html">Horarios</a> | <a href="matricula.html">Matrícula</a> | <a href="contacto.html">Contacto</a><br/><br>
+Copyright RockNMusic Academy
+    </footer> 
+  
+  
+  </div><!--close main-->
+  
+</body>
+</html>
